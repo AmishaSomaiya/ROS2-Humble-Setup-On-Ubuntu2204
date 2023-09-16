@@ -28,10 +28,10 @@ Looking at the details of the Humble distribution installation :
 
 Ubuntu22.04 is a supported platform for ROS2 Humble distribution. 
 
-**Thus, for our Ubuntu22.04, we will install ROS2-Humble Hawkbill distribution in this repo.** 
+### Thus, for our Ubuntu22.04, we will install ROS2-Humble Hawkbill distribution in this repo.
 
 
-# Notes 
+# Notes : 
 ## 1. Summary : 
 
 Ubuntu18 -> ROS1 Melodic
