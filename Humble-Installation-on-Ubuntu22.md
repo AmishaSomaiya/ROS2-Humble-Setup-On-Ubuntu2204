@@ -38,7 +38,7 @@ sudo locale-gen en_US en_US.UTF-8
 ```
 
 <p align="center">
-  <img src="Images/install-locale2.png" />
+  <img src="Images/install-locales2.png" />
 </p>
 
 ```
