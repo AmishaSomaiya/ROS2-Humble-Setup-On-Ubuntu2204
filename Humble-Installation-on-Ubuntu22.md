@@ -113,7 +113,7 @@ This step of sourcing the script has to be done every time a new terminal is ope
   <img src="Images/commandnotfound.png" />
 </p>
 
-To avoid running this step every time, we can add the sourcing the script command to out bash source file :
+To avoid running this step every time, we can add the environment path to the bash file :
 
 ```
 gedit ~/.bashrc
