@@ -124,6 +124,11 @@ Now add the line source /opt/ros/humble/setup.bash to the end of this file and s
   <img src="Images/commandfound.png" />
 </p>
 
+Step 9 : Now the setup is complete. This last step is for verifying the correctness of the installation. 
+
+##Examples : 
+Start first ROS2 node :
+ROS2 node is a ROS2 program that interacts with ROS2 communications and tools. For understanding, use example packages directly from the ros2 installation (without needing to create one)
 
 
 
@@ -140,8 +145,6 @@ Now add the line source /opt/ros/humble/setup.bash to the end of this file and s
 1. We selected the install from Debian Binary Packages since it results in a fully-functional and usable ROS2 and alos it is more convenient because it installs its necessary dependencies automatically and updates alongside regular system updates. On the other hand, building from source is for developers looking to alter or explicitly omit parts of ROS 2’s base. It is also recommended for platforms that don’t support binaries. Building from source also gives you the option to install the absolute latest version of ROS 2.
 
 2. For Debian, access to root is essential. If root access is not available, select install from 'fat' drive. Also, debian is exclusive to Ubuntu, for mac or Windows, install from 'fat' drive.
-   
-3.  
 
 
 
