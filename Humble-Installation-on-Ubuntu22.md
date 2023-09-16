@@ -130,6 +130,36 @@ Step 9 : Now the setup is complete. This last step is for verifying the correctn
 Start first ROS2 node :
 ROS2 node is a ROS2 program that interacts with ROS2 communications and tools. For understanding, use example packages directly from the ros2 installation (without needing to create one)
 
+terminal 1 : 
+ros2 run packagename nodename
+ros2 run demo_node (press tab twice for autocompletion : will show the list of packages) 
+
+```
+ros2 run demo_nodes_cpp talker
+```
+
+press enter
+node starts running
+ctrl c to kill the node
+
+terminal 2 :
+in other terminal : 
+
+```
+ros2 run demo_nods_py listener
+```
+enter
+starts listening
+
+<p align="center">
+  <img src="Images/talker.png" />
+</p>
+
+<p align="center">
+  <img src="Images/listener.png" />
+</p>
+
+Thus both C++ and Python APIs are working correctly and the installation has been done fine. 
 
 
 
