@@ -46,7 +46,7 @@ For ROS1 : ROS Noetic Ninjemys (release date: 2020) is the latest and final vers
 
 ## 3. If some functionality from ROS1 is needed along with ROS2 :
 
-Two ways to tackle this sitation : 1. Use ROS2-ROS1 bridge. 2. Use both ROS1-ROS2 multiple distribution installation on system. Refer ROS documentation for details. 
+Two ways to tackle this sitation : 1. Use ROS2-ROS1 bridge. or 2. Use both ROS1-ROS2 multiple distribution installation on system. Refer ROS documentation for details. 
 
 ### References : 
 
