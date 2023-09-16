@@ -17,6 +17,9 @@ As seen below in the list of distributions from the ROS2 documentation, all dist
   <img src="Images/listofdist.png" width="300" />
 </p>
 
+<p align="center">
+  <img src="Images/listofdistributions.png" width="300" />
+</p>
 
 
 ### Question 2 : To install Which ROS distribution? 
