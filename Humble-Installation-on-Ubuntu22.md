@@ -160,15 +160,7 @@ starts listening
   <img src="Images/listener.png" />
 </p>
 
-Thus both C++ and Python APIs are working correctly and the installation has been done fine. 
-
-
-
-
-
-
-
-
+Thus both C++ and Python APIs are working correctly and the ROS2 Humble is ready for use on Ubuntu 22.04. 
 
 
 
