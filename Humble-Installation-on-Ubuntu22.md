@@ -41,6 +41,7 @@ sudo locale-gen en_US en_US.UTF-8
   <img src="Images/install-locales2.png" />
 </p>
 
+
 ```
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
