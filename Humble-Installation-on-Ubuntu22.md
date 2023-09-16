@@ -50,7 +50,7 @@ locale  # verify settings
 ```
 
 <p align="center">
-  <img src="Images/verify-locale.png" width="300" />
+  <img src="Images/verify-locale.png" width="200" />
 </p>
 
 Step 4 : Setup sources to add the ROS 2 apt repository to system. 
@@ -122,7 +122,7 @@ gedit ~/.bashrc
 Now add the line source /opt/ros/humble/setup.bash to the end of this file and save it. Now, whenever ros2 is run in a new terminal, the environment is already sourced.
 
 <p align="center">
-  <img src="Images/commandfound.png" width="800" />
+  <img src="Images/commandfound.png" />
 </p>
 
 Step 9 : Now the setup is complete. This last step is for verifying the correctness of the installation. 
