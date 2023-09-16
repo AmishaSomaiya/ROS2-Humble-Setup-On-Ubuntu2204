@@ -13,9 +13,9 @@ Even though ROS1 became extremely popular among the open source robotics communi
 
 As seen below in the list of distributions from the ROS2 documentation, all distributions till Galactic Geocheclone have reached their EOL (End of Life) whereas the 2 distributions highlighted in green i.e. Humble Hawkbill and Iron Irwini are the currently supported distributions. 
 
-![](listofdist.png)
-
-
+<p align="center">
+  <img src="Images/listofdist.png" width="300" />
+</p>
 
 
 
