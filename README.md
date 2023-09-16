@@ -7,22 +7,28 @@ The Robot Operating System (ROS) is a set of software libraries and tools that h
 
 Before beginning the installation, it is essential to understand the specifice requirements of your project and your lab system to make decisions regarding the distribution and version of ROS to be installed for your use-case.
 
-### Question 1: To install ROS1 or ROS2 ?
+### Should we install ROS1 or ROS2? Which distribution of ROS should be installed?  
 
 Even though ROS1 became extremely popular among the open source robotics community, it still lacked some of the most important requirements, such as real-time, safety, certification, security. Thus, came ROS2, to meet these requirements and be compatible with industrial applications. So, ROS1 is last supported Considering our sytem requirement of Ubuntu22.04, ROS1 is no lone
 
-As seen below in the list of distributions from the ROS2 documentation, all distributions till Galactic Geocheclone have reached their EOL (End of Life) whereas the 2 distributions highlighted in green i.e. Humble Hawkbill and Iron Irwini are the currently supported distributions. 
+As seen below in the list of distributions from the ROS2 documentation, all distributions till Galactic Geocheclone have reached their EOL (End of Life).  
 
 <p align="center">
   <img src="Images/listofdist.png" />
 </p>
 
+The 2 distributions highlighted in green i.e. Humble Hawkbill and Iron Irwini are the currently supported distributions : 
 <p align="center">
   <img src="Images/listofdistributions.png" />
 </p>
 
+Looking at the details of the Humble distribution installation :
+<p align="center">
+  <img src="Images/humble-supportedplatforms.png" />
+</p>
 
-### Question 2 : To install Which ROS distribution? 
+Ubuntu22.04 is a supported platform for ROS2 Humble distribution. 
+
 
 Summary : 
 
