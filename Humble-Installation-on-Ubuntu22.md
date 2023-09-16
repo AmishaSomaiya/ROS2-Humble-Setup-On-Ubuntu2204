@@ -30,7 +30,7 @@ sudo apt update && sudo apt install locales
 ```
 
 <p align="center">
-  <img src="Images/install-locales.png" />
+  <img src="Images/install-locales.png" width="500" />
 </p>
 
 ```
@@ -38,7 +38,7 @@ sudo locale-gen en_US en_US.UTF-8
 ```
 
 <p align="center">
-  <img src="Images/install-locales2.png" />
+  <img src="Images/install-locales2.png" width="500" />
 </p>
 
 
@@ -122,7 +122,7 @@ gedit ~/.bashrc
 Now add the line source /opt/ros/humble/setup.bash to the end of this file and save it. Now, whenever ros2 is run in a new terminal, the environment is already sourced.
 
 <p align="center">
-  <img src="Images/commandfound.png" />
+  <img src="Images/commandfound.png" width="500" />
 </p>
 
 Step 9 : Now the setup is complete. This last step is for verifying the correctness of the installation. 
