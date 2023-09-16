@@ -19,31 +19,39 @@ Check for UTF-8 :
 ```
 locale
 ```
+
 <p align="center">
   <img src="Images/locale.png" />
 </p>
 Next install locales, it will take a while :
+
 ```
 sudo apt update && sudo apt install locales
 ```
+
 <p align="center">
   <img src="Images/install-locales.png" />
 </p>
+
 ```
 sudo locale-gen en_US en_US.UTF-8
 ```
+
 <p align="center">
   <img src="Images/install-locale2.png" />
 </p>
+
 ```
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 locale  # verify settings
 ```
+
 <p align="center">
   <img src="Images/verify-locale.png" />
 </p>
+
 
 
 
