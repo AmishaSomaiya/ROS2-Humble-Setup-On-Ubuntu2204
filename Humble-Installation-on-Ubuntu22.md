@@ -52,7 +52,7 @@ locale  # verify settings
   <img src="Images/verify-locale.png" />
 </p>
 
-Step 4 : Setup sources to add the ROS 2 apt repository to system
+Step 4 : Setup sources to add the ROS 2 apt repository to system. 
 First ensure that the Ubuntu Universe repository is enabled.
 
 ```
@@ -73,7 +73,7 @@ Step 6 : Add the repository to sources list
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 
-Step 7 : Install ROS2 packages
+Step 7 : Install ROS2 packages. 
 Update apt repository caches after setting up the repositories
 
 ```
@@ -98,6 +98,31 @@ Next install development tools: compilers and other tools to build ROS packages
 ```
 sudo apt install ros-dev-tools
 ```
+
+Step 8 : Environment Setup 
+
+Set up your environment by sourcing the following file.
+
+```
+source /opt/ros/humble/setup.bash
+```
+
+This step of sourcing the script has to be done every time a new terminal is opened and we wish to run ros2. If this step is skipped and we try running ros2, we get the command not found error :
+
+<p align="center">
+  <img src="Images/commandnotfound.png" />
+</p>
+
+To avoid running this step every time, we can add the sourcing the script command to out bash source file :
+
+```
+gedit ~/.bashrc
+```
+Now add the line source /opt/ros/humble/setup.bash to the end of this file and save it. Now, whenever ros2 is run in a new terminal, the environment is already sourced.
+
+<p align="center">
+  <img src="Images/commandfound.png" />
+</p>
 
 
 
