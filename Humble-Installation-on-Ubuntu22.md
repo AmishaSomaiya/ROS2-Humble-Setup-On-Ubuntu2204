@@ -167,7 +167,7 @@ Thus both C++ and Python APIs are working correctly and the ROS2 Humble is ready
 ### Notes :
 1. We selected the install from Debian Binary Packages since it results in a fully-functional and usable ROS2 and alos it is more convenient because it installs its necessary dependencies automatically and updates alongside regular system updates. On the other hand, building from source is for developers looking to alter or explicitly omit parts of ROS 2’s base. It is also recommended for platforms that don’t support binaries. Building from source also gives you the option to install the absolute latest version of ROS 2.
 
-2. For Debian, access to root is essential. If root access is not available, select install from 'fat' drive. Also, debian is exclusive to Ubuntu, for mac or Windows, install from 'fat' drive.
+2. For Debian, access to root is essential. If root access is not available, select install from 'fat' drive. Also, debian is exclusive to Ubuntu. So for Mac or Windows, install from 'fat' drive.
 
 
 
