@@ -18,7 +18,7 @@ As seen below in the list of distributions from the ROS2 documentation, all dist
 </p>
 
 <p align="center">
-  <img src="Images/listofdistributions.png" width="300" />
+  <img src="Images/listofdistributions.png" />
 </p>
 
 
