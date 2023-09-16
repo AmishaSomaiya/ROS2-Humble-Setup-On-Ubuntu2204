@@ -52,6 +52,52 @@ locale  # verify settings
   <img src="Images/verify-locale.png" />
 </p>
 
+Step 4 : Setup sources to add the ROS 2 apt repository to system
+First ensure that the Ubuntu Universe repository is enabled.
+
+```
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+```
+
+Step 5 : Add the ROS 2 GPG key with apt
+
+```
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+```
+
+Step 6 : Add the repository to sources list
+
+```
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
+Step 7 : Install ROS2 packages
+Update apt repository caches after setting up the repositories
+
+```
+sudo apt update
+```
+
+Ensure system is up to date before installing new packages
+
+```
+sudo apt upgrade
+```
+
+Now we have 2 choices to install ROS2 : either Desktop Install or ROS-Base. Desktop Install includes GUI tools such as RViz, demos and tutorials whereas ROS-Base is bare bones which includes communication libraries, message packages and CLI but not GUI tools. 
+We proceed to install ROS2 Desktop Install 
+
+```
+sudo apt install ros-humble-desktop
+```
+
+Next install development tools: compilers and other tools to build ROS packages
+
+```
+sudo apt install ros-dev-tools
+```
 
 
 
