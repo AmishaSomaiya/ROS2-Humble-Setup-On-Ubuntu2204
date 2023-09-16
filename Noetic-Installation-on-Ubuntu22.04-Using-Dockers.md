@@ -4,6 +4,7 @@ ROS Noetic Ninjemys, the latest and final version of ROS1 was specifically desig
 Using Dockers, ROS1 Noetic can be containerized and then used with Ubuntu22.04.
 
 The following commands to be run on the Ubuntu terminal : 
+
 Step 1 : Install Dockers on Ubuntu22.04 :
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io 
