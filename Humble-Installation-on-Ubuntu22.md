@@ -4,8 +4,38 @@ Step 1 : Go to official documentation of ROS2-Humble Hawkbill distribution and c
 ```
 https://docs.ros.org/en/humble/index.html
 ```
+<p align="center">
+  <img src="Images/ros2-install.png" />
+</p>
 
 Step 2 : There are 2 ways of installation : using binary packages or build from source. We will select the install from Debian Binary Packages. 
+<p align="center">
+  <img src="Images/debian.png" />
+</p>
+
+Step 3 : Set locale which supports UTF-8. (or minimal like POSIX) with the following commands : 
+
+Check for UTF-8 :
+```
+locale
+```
+<p align="center">
+  <img src="Images/locale.png" />
+</p>
+Next install locales, it will take a while :
+```
+sudo apt update && sudo apt install locales
+```
+<p align="center">
+  <img src="Images/install-locales.png" />
+</p>
+<p align="center">
+  <img src="Images/install-locale2.png" />
+</p>
+
+
+
+
 
 
 
