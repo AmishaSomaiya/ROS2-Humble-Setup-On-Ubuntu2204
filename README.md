@@ -4,10 +4,9 @@
 
 The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it's all open source. For over 10+ years the ROS project has produced a vast ecosystem of software for robotics by nurturing a global community of millions of developers and users who contribute to and improve that software. ROS is developed by and for that community, who will be its stewards into the future. ROS provides the tools, libraries, and capabilities that you need to develop your robotics applications, allowing you to spend more time on the work that is important for your business. Because it is open-source, you have the flexibility to decide where and how to use ROS, as well as the freedom to customize it for your needs. Moreover, ROS isn’t exclusive, you don’t need to choose between ROS or some other software stack; ROS easily integrates with your existing software to bring its tools to your problem. ROS is ready for use across a wide array of robotics applications, from indoor to outdoor, home to automotive, underwater to space, and consumer to industrial.
 
+There is a new release of ROS distribution every year. 
 
-Before beginning the installation, it is essential to understand the specifice requirements of your project and your lab system to make decisions regarding the distribution and version of ROS to be installed for your use-case.
-
-### Should we install ROS1 or ROS2? Which distribution of ROS should be installed?  
+### Before beginning the installation, we need to answer 2 questions based on our project and system requirements : Should we install ROS1 or ROS2? Which distribution of ROS should be installed?  
 
 Even though ROS1 became extremely popular among the open source robotics community, it still lacked some of the most important requirements, such as real-time, safety, certification, security. Thus, came ROS2, to meet these requirements and be compatible with industrial applications. So, ROS1 is last supported Considering our sytem requirement of Ubuntu22.04, ROS1 is no lone
 
