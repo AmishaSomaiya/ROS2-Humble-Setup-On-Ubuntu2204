@@ -36,7 +36,7 @@ Ubuntu18 -> ROS1 Melodic
 
 Ubuntu20 -> ROS1 Noetic
 
-Ubuntu22 -> ROS2 Humble / Iron 
+Ubuntu22 -> ROS2 Humble / Iron  
 
 Details : 
 For ROS1 : ROS Noetic Ninjemys (release date: 2020) is the latest and final version of ROS1 was specifically designed to work with Ubuntu 20.04 (Focal Fossa) This final ROS1 version main’s goal is to provide Python3 support for developers/organizations who need to continue working with ROS1 for a while. It is not directly compatible with Ubuntu 22.04. and hence will lead to compatibility issues if used with Ubuntu 22.04. If it is still absolutely essential to use Noetic with Ubuntu 22.04, it can be docekerized for use. The steps for the same are outlined in this repo. However, it is important to note that Noetic on Ubuntu22 may not always work perfectly due to missing dependencies or other issues. ROS Noetic’s EOL (End of Life) is scheduled for 2025 i.e. any big code in ROS1 going beyond will need to be migrated to ROS2. 
