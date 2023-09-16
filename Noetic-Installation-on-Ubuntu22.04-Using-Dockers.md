@@ -1,5 +1,5 @@
 ## ROS1 Noetic Installation on Ubuntu22.04 Using Dockers 
-ROS Noetic Ninjemys, the latest and final version of ROS1 was specifically designed to work with Ubuntu 20.04 (Focal Fossa) It is not directly compatible with Ubuntu 22.04. and hence will lead to compatibility issues if used with Ubuntu 22.04. If it is still absolutely essential to use Noetic with Ubuntu 22.04, it can be docekerized for use. The steps for the same are outlined in this repo. However, it is important to note that Noetic on Ubuntu22 may not always work perfectly due to missing dependencies or other issues.
+ROS Noetic Ninjemys, the latest and final version of ROS1 was specifically designed to work with Ubuntu 20.04 (Focal Fossa) It is not directly compatible with Ubuntu 22.04. and hence will lead to compatibility issues if used with Ubuntu 22.04. If it is still absolutely essential to use Noetic with Ubuntu 22.04, it can be dockerized for use. The steps for the same are outlined here.  However, it is important to note that Noetic on Ubuntu22 may not always work perfectly due to missing dependencies or other issues.
 
 Using Dockers, ROS1 Noetic can be containerized and then used with Ubuntu22.04.
 
