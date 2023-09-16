@@ -58,13 +58,10 @@ Two ways to tackle this sitation : 1. Use ROS2-ROS1 bridge. or 2. Use both ROS1-
 
 [4] https://docs.ros.org/en/foxy/Releases.html
 
-[5] https://devicetests.com/ros-noetic-compatible-ubuntu-22-04-guide#google_vignette
+[5] https://askubuntu.com/questions/1423932/ros-noetic-from-ubuntu-20-04-to-ubuntu-22-04#:~:text=ROS%20Noetic%20will%20be%20the,will%20only%20support%20Ubuntu%2020.04.
 
-[6] https://roboticsbackend.com/ros1-vs-ros2-practical-overview/
+[6] https://devicetests.com/ros-noetic-compatible-ubuntu-22-04-guide#google_vignette
 
-[7] https://www.reddit.com/r/ROS/comments/uc6ef3/how_can_i_install_ros_in_ubuntu_2204_is_it/
-
-[8] https://askubuntu.com/questions/1423932/ros-noetic-from-ubuntu-20-04-to-ubuntu-22-04#:~:text=ROS%20Noetic%20will%20be%20the,will%20only%20support%20Ubuntu%2020.04.
-
+[7] https://roboticsbackend.com/ros1-vs-ros2-practical-overview/
 
 
